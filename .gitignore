@@ -1,0 +1,52 @@
+# ── Virtual Environment ──────────────────────────────────────
+venv/
+env/
+.env/
+.venv/
+ENV/
+
+# ── HuggingFace / Model Cache (HEAVY) ────────────────────────
+*.bin
+*.safetensors
+*.pt
+*.pth
+*.ckpt
+models/
+model_cache/
+~/.cache/huggingface/
+.cache/
+
+# ── Python ───────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+dist/
+build/
+*.egg-info/
+*.egg
+.eggs/
+
+# ── Environment Variables ─────────────────────────────────────
+.env
+.env.*
+*.env
+
+# ── IDE / Editor ─────────────────────────────────────────────
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+.DS_Store
+Thumbs.db
+
+# ── Logs & Debug ─────────────────────────────────────────────
+*.log
+flask_session/
+instance/
+
+# ── Testing ──────────────────────────────────────────────────
+.pytest_cache/
+.coverage
+htmlcov/
